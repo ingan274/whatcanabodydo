@@ -1,0 +1,41 @@
+@media only screen 
+and (min-width: 668px) 
+and (max-width: 811px) {
+
+    :root {
+        --title-size: 2.5em;
+        --subtitle-size: 2.1em;
+        --demisub-size: 1.45em;
+        --body-size: 1.2em;
+    }
+
+    .introText, .chapterList {
+        height: 100vh;
+    }
+
+    .scroll {
+        display: inline;
+        font-weight: var(--semi);
+    }
+
+    .introText {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    #selectChap {
+        color: var(--yellow);
+    }
+
+    .homeChapterLinks {
+        font-weight: var(--med);
+        font-size: var(--subtitle-size);
+        text-decoration: none;
+        color: black;
+        padding: 0.5em 0;
+    }
+
+    .homeChapterLinks:hover {
+        font-weight: var(--demi);
+    }
+
+}

@@ -1,0 +1,61 @@
+@media only screen 
+and (min-width: 1025px) 
+and (max-width: 1279px) {
+
+    :root {
+        --title-size: 2.5em;
+        --subtitle-size: 2.1em;
+        --demisub-size: 1.45em;
+        --body-size: 1.2em;
+    }
+
+    .introText {
+        padding-left: 4em;
+    }
+
+    .introText, .chapterList {
+        height: 50vh;
+    }
+
+
+    .homeChapterLinks {
+        padding: 0.6em 0;
+    }
+
+    #home {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    
+
+}
+
+@media only screen 
+and (min-width: 1280px) 
+and (max-width: 1622px) {
+
+    :root {
+        --title-size: 2.5em;
+        --subtitle-size: 2.1em;
+        --demisub-size: 1.45em;
+        --body-size: 1.05em;
+    }
+
+    .introText {
+        padding-left: 4em;
+    }
+
+    .homeChapterLinks {
+        padding: 0.6em 0;
+    }
+
+    #home {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    
+
+}
+

@@ -1,0 +1,81 @@
+.chapter {
+    height: 600vh;
+}
+
+.p1disp, .p2disp, .p3disp, .p4disp, .p5disp, .p6disp {
+    z-index: 3;
+}
+
+.limbBack {
+    width: 100%;
+    height: 600vh;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.limbFront {
+    width: 100%;
+    height: 600vh;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    top: 0;
+}
+
+#evo1, #evo2, #evo3, #evo4, #evo5, #evo6, #evo7 {
+    z-index: 4;
+}
+
+.panel {
+    scroll-snap-align: start;
+  }
+
+.line {
+    width: 1em;
+    height: 100vh;
+    position: relative;
+    display: inline-block;
+    background-color: var(--yellow);
+}
+
+/* Text CSS */
+.chapterTitle1 {
+    font-size: var(--title-size);
+    font-weight: var(--bold);
+}
+
+.chapterText1 {
+    font-size: var(--demisub-size);
+    font-weight: var(--med);
+}
+
+.chapterTitle {
+    font-size: var(--subtitle-size);
+    font-weight: var(--semi);
+}
+
+.chapterText {
+    font-size: var(--chap-body);
+    font-weight: var(--reg);
+}
+
+.hoverProsth {
+    font-size: var(--body-sizes);
+    font-weight: var(--semi);
+    margin: 100% auto 0;
+}
+
+#prosth1, #prosth2, #prosth3, #prosth4, #prosth5, #prosth6, #prosth7 {
+    display: none;
+}
+
+.textHover {
+    font-size: var(--chap-body);
+}
+
+.dateHover {
+    font-weight: var(--semi);
+    font-size: var(--demisub-size);
+}
