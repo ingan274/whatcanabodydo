@@ -3,7 +3,7 @@ import "./style.css"
 
 const Chair = () => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 4608">
             <g id="chair">
                 <g id="thrones">
                     <g id="throne">

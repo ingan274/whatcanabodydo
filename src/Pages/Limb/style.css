@@ -30,7 +30,7 @@
 
 .panel {
     scroll-snap-align: start;
-  }
+}
 
 .line {
     width: 1em;

@@ -1,0 +1,32 @@
+.dot-nav {
+    position: fixed;
+    z-index: 9;
+    width: 20em;
+    bottom: 1em;
+}
+
+.dotNav {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: var(--dot-nav);
+    font-weight: var(--med);
+    padding: 0.4em 0em;
+}
+  
+.dot {
+    display: inline-block;
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 50%;
+    border: .18em solid var(--yellow);
+    margin-right: 1em;
+    text-align: center;
+    background-color:var(--yellow);
+    color: white; 
+}
+
+.dotText {
+    display: none;
+    background-color: rgba(255, 255, 255, .9);
+    padding: .1em .5em;
+}

@@ -1,0 +1,57 @@
+.streetBack {
+    width: 100%;
+    height: 600vh;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+}
+
+.streetpanel {
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+/* Text CSS */
+.streetText {
+    position: relative;
+    z-index: 3;
+}
+
+/* page 1 */
+.streetp1 {
+    padding-left: 4em;
+}
+
+/* Page 2 */
+
+.p2streetText {
+    font-size: var(--demisub-size);
+}
+
+/* Page 3 */
+.p3streetTitle {
+    font-size: var(--title-size);
+}
+.p3streetText {
+    font-size: var(--subtitle-size);
+}
+
+/* page 4 */
+
+.p4streetTitle, .p4streetText{
+    background-color: rgba(255, 255, 255, .86);
+}
+
+.p4streetTitle {
+    padding: 1em 1em;
+}
+
+.p4streetText {
+    padding: 1em 2em;
+}
+
+/* page6 */
+.p6street {
+    padding-top: 10em;
+}

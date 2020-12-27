@@ -22,19 +22,19 @@ const ChapterNav = (props) => {
         <Box  pt={2} className="stickyNavContainer">
             <Grid container direction="row" spacing={3} justify="center" alignItems="center" className="stickyNav" >
                 <Grid item >
-                    <NavLink to="/limb" activeClassName='selectedChap' className='chapterNav' onClick={() => props.changeChapter('limb')}>Limb.</NavLink>
+                    <NavLink to="/limb" activeClassName='selectedChap' className='chapterNav' >Limb.</NavLink>
                 </Grid>
                 <Grid item >
-                    <NavLink to="/chair" activeClassName='selectedChap' className='chapterNav' onClick={() => props.changeChapter('chair')}>Chair.</NavLink>
+                    <NavLink to="/chair" activeClassName='selectedChap' className='chapterNav' >Chair.</NavLink>
                 </Grid>
                 <Grid item >
-                    <NavLink to="/room" activeClassName='selectedChap' className='chapterNav' onClick={() => props.changeChapter('room')}>Room.</NavLink>
+                    <NavLink to="/room" activeClassName='selectedChap' className='chapterNav' >Room.</NavLink>
                 </Grid>
                 <Grid item >
-                    <NavLink to="/street" activeClassName='selectedChap' className='chapterNav' onClick={() => props.changeChapter('street')}>Street.</NavLink>
+                    <NavLink to="/street" activeClassName='selectedChap' className='chapterNav' >Street.</NavLink>
                 </Grid>
                 <Grid item >
-                    <NavLink to="/clock" activeClassName='selectedChap' className='chapterNav' onClick={() => props.changeChapter('clock')}>Clock.</NavLink>
+                    <NavLink to="/clock" activeClassName='selectedChap' className='chapterNav' >Clock.</NavLink>
                 </Grid>
             </Grid>
         </Box>

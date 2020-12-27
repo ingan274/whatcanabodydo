@@ -1,0 +1,79 @@
+/* Image Styling */
+.chairBack {
+    width: 100%;
+    height: 600vh;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+}
+
+.chairpanel {
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+
+/* Text CSS */
+.chairText {
+    position: relative;
+    z-index: 2;
+}
+
+/* Page 1 */
+.p1ChairTitle {
+    margin-top: 3em;
+}
+
+.p1ChairText {
+    color: var(--yellow);
+}
+
+/* Page 2 */
+.p2ChairTitle, .p3ChairTitle, .p4ChairTitle, .p5ChairTitle, .p6ChairTitle {
+    color: var(--yellow);
+}
+
+.p2Chairtext {
+    margin: 0 auto;
+}
+
+/* Page 3 */
+.chairp3Box {
+    width: 100%;
+}
+
+.chairp3 {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.p3ChairTitle {
+    text-align: center;
+}
+
+/* Page 5 ADA*/
+.p5ChairTitle {
+    padding-left: 2em;
+    padding-top: 5em;
+}
+
+.p5ChairText {
+    padding: 1em 5em;
+}
+
+#adalink {
+    background-color: var(--yellow);
+    font-size: var(--link-size);
+    font-weight: var(--med);
+    padding: 1em 6.5em;
+}
+
+#adalink:hover {
+    font-weight: var(--bold);
+}
+
+/* Page 6 Average Myth */
+.p6text {
+    margin: 0 auto;
+}

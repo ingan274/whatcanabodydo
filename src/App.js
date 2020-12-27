@@ -69,7 +69,7 @@ class App extends Component {
       },
       p4: {
         title: "Carboard",
-        text1: "Cardboard is more than just a good material. It's a kind of philosophy. Cardboard can be seen as first-draft material but has the affordances to be a finished product. Cardboard has an experimental spirit but offers sturdy strength. When three layers are stacked together, corrugated in between in a wavelike formation, its structure becomes strong enough to hold up to 1,100 pounds per square inch. This material is a cheap and strong material that allows for creating bespoke and custom products for individual people.",
+        text: "Cardboard is more than just a good material. It's a kind of philosophy. Cardboard can be seen as first-draft material but has the affordances to be a finished product. Cardboard has an experimental spirit but offers sturdy strength. When three layers are stacked together, corrugated in between in a wavelike formation, its structure becomes strong enough to hold up to 1,100 pounds per square inch. This material is a cheap and strong material that allows for creating bespoke and custom products for individual people.",
       },
       p5: {
         title: "Adaptive Design Association (ADA)",
@@ -126,7 +126,7 @@ class App extends Component {
       },
       p4: {
         title: "Sidewalks",
-        text1: "The sidewalk stands for being in a public space; thus sidewalks pertain to the public sphere. People with disabilities saw the design of the streets as a part of their political rights—streets were initially built for working men with physically strong bodies with little to no caretaking responsibilities. However, in the 1960s, disability activists took to the streets by either mix concrete to create a smooth passage from the side to the street or smashed the concrete curb away to create a guerrilla-style cut. These acts were not just political statements, but people \"editing\" the city; they were not waiting for new architecture to be built, so they created a world that fit them by making and unmaking the inherent build world.",
+        text: "The sidewalk stands for being in a public space; thus sidewalks pertain to the public sphere. People with disabilities saw the design of the streets as a part of their political rights—streets were initially built for working men with physically strong bodies with little to no caretaking responsibilities. However, in the 1960s, disability activists took to the streets by either mix concrete to create a smooth passage from the side to the street or smashed the concrete curb away to create a guerrilla-style cut. These acts were not just political statements, but people \"editing\" the city; they were not waiting for new architecture to be built, so they created a world that fit them by making and unmaking the inherent build world.",
       },
       p5: {
         title: "Structured Environment",
@@ -154,7 +154,7 @@ class App extends Component {
       },
       p4: {
         title: "Cultural Origins to Mathematical Units",
-        text1: "Time was originally created to keep desirable life set apart by spiritual habits measured by marking the hours. \"The tools and technologies both follow, and lead, and follow again from the ideals that cultures value.\" The clock transformed from being a cultural core of marking the passing minutes to imagining time as preceding other metrics of life. It is the unit that drives how we perceive productivity, intellectuality, and disability.",
+        text: "Time was originally created to keep desirable life set apart by spiritual habits measured by marking the hours. \"The tools and technologies both follow, and lead, and follow again from the ideals that cultures value.\" The clock transformed from being a cultural core of marking the passing minutes to imagining time as preceding other metrics of life. It is the unit that drives how we perceive productivity, intellectuality, and disability.",
       },
       p5: {
         title: "What Does the Future Look Like?",
@@ -180,18 +180,21 @@ class App extends Component {
               <Limb page={limb} />
             </Container>
           </Route>
+
           <Route exact path="/chair">
             <Container>
               <Header />
               <Chair page={chair} />
             </Container>
           </Route>
-          <Route exact page="/room">
+
+          <Route exact path="/room">
             <Container>
               <Header />
-              <Room home={room} />
+              <Room page={room} />
             </Container>
           </Route>
+
           <Route exact path="/street">
             <Container>
               <Header />

@@ -4,6 +4,8 @@
   --demisub-size: 1.45em;
   --body-size: 1.2em;
   --chap-body: 1em;
+  --link-size: 0.8em;
+  --dot-nav: 0.6em;
   --bold: 700;
   --semi: 600;
   --med: 500;
@@ -47,6 +49,11 @@ body {
   height:100%;
   position: relative;
   z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 code {
@@ -133,7 +140,7 @@ text {
 }
 
 svg {
-  z-index: auto;
+  z-index: 1;
 }
 
 html {

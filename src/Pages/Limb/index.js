@@ -9,6 +9,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Background from "../../Component/Limb";
 import Evolution from "../../Component/LimbAbove";
+import DotNav from "../../Component/DotNav";
 gsap.registerPlugin(ScrollTrigger);
 
 const Limb = (props) => {
@@ -25,7 +26,30 @@ const Limb = (props) => {
     const [p6Title] = useState(props.page.p6.title);
     const [p6Text] = useState(props.page.p6.text);
 
+    const anchorLink = (title) => {
+        const deleteItems = [".", ",", "(", ")", "?", "-", " "]
+        let anchor = ""
+        for (let letter of title) {
+            if (deleteItems.includes(letter)) {
+                continue;
+            } else {
+                anchor += letter
+                
+            }
+        }
+        return anchor;
+    }
+
+    const [anchor1] = useState(anchorLink(p1Title));
+    const [anchor2] = useState(anchorLink(p2Title));
+    const [anchor3] = useState(anchorLink(p3Title));
+    const [anchor4] = useState(anchorLink(p4Title));
+    const [anchor5] = useState(anchorLink(p5Title));
+    const [anchor6] = useState(anchorLink(p6Title));
+
     useEffect(() => {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+        
         ScrollTrigger.defaults({
             toggleActions: "restart pause resume pause"
         });
@@ -58,9 +82,24 @@ const Limb = (props) => {
             <Box className="limbFront">
                 <Evolution />
             </Box>
+
+            <DotNav 
+            section1= {p1Title}
+            section2= {p2Title}
+            section3= {p3Title}
+            section4= {p4Title}
+            section5= {p5Title}
+            section6= {p6Title}
+            anchor1={anchor1}
+            anchor2={anchor2}
+            anchor3={anchor3}
+            anchor4={anchor4}
+            anchor5={anchor5}
+            anchor6={anchor6}
+            />
             {/* Text */}
             <Grid item container direction="column" className="limbText">
-                <Grid item container direction="row" className="panel p1disp">
+                <Grid item container direction="row" className="panel p1disp" id={`${anchor1}`}>
                     <Box item="true" xs={2} mx={5} className="line line-1"></Box>
                     <Grid item xs={5} container direction="column" className="p1text" justify="center">
                         <Box className="chapterTitle1 p1Title">{p1Title}</Box>
@@ -68,7 +107,7 @@ const Limb = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid item container direction="row" className="panel p2disp">
+                <Grid item container direction="row" className="panel p2disp" id={`${anchor2}`}>
                     <Box item="true" xs={2} mx={5} className="line line-2"></Box>
                     <Grid item xs={5} container direction="column" className="p2text" justify="center">
                         <Box className="chapterTitle p2Title">{p2Title}</Box>
@@ -76,7 +115,7 @@ const Limb = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid item container direction="row" className="panel p3disp">
+                <Grid item container direction="row" className="panel p3disp" id={`${anchor3}`}>
                     <Box item="true" xs={2} mx={5} className="line line-3"></Box>
                     <Grid item xs={5} container direction="column" className="p3text" justify="center">
                         <Box className="chapterTitle p3Title">{p3Title}</Box>
@@ -95,7 +134,7 @@ const Limb = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid item container direction="row" className="panel p4disp">
+                <Grid item container direction="row" className="panel p4disp" id={`${anchor4}`}>
                     <Box item="true" xs={2} mx={5} className="line line-4"></Box>
                     <Grid item xs={5} container direction="column" className="p4text" justify="center">
                         <Box className="chapterTitle p4Title">{p4Title}</Box>
@@ -103,7 +142,7 @@ const Limb = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid item container direction="row" className="panel p5disp">
+                <Grid item container direction="row" className="panel p5disp" id={`${anchor5}`}>
                     <Box item="true" xs={2} mx={5} className="line line-5"></Box>
                     <Grid item xs={5} container direction="column" className="p5text" justify="center">
                         <Box className="chapterTitle p5Title">{p5Title}</Box>
@@ -111,7 +150,7 @@ const Limb = (props) => {
                     </Grid>
                 </Grid>
 
-                <Grid item container direction="row" className="panel p6disp">
+                <Grid item container direction="row" className="panel p6disp" id={`${anchor6}`}>
                     <Box item="true" xs={2} mx={5} className="line line-6"></Box>
                     <Grid item xs={5} container direction="column" className="p6text" justify="center">
                         <Box className="chapterTitle p6Title">{p6Title}</Box>

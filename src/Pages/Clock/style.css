@@ -1,0 +1,49 @@
+.clockBack {
+    width: 100%;
+    height: 600vh;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+}
+
+.clockpanel {
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+/* Text CSS */
+.clockText {
+    position: relative;
+    z-index: 3;
+}
+
+/* page 4 */
+.p4clockTitle {
+    padding-top: 3em;
+    text-align:center;
+}
+
+.p4clockText {
+    padding-top: 25em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+
+.p5clockTitle, .p5clockText{
+    background-color: rgba(255, 255, 255, .66);
+}
+
+.p5clockTitle {
+    padding: 0em 1em;
+
+}
+
+.p5clockText {
+    padding: 1em 2em;
+}
+
+.p6clock {
+    padding-top: 4em;
+}
