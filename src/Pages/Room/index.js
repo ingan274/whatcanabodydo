@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-// import "./style_1025-1622.css";
-// import "./style_812-1024.css";
-// import "./style_668-811.css";
-// import "./style_375-667.css";
+import "./style_1025-1622.css";
+import "./style_812-1024.css";
+import "./style_668-811.css";
+import "./style_375-667.css";
 import { Grid, Box } from '@material-ui/core';
 import ArrowBackRoundedIcon from '@material-ui/icons/ArrowBackRounded';
 import { gsap } from "gsap";
@@ -89,50 +89,50 @@ const Room = (props) => {
             {/* Text */}
             <Grid item containerdirection="column" className="roomText">
                 <Grid item container direction="row" className="roompanel p1disp" id={`${anchor1}`}>
-                    <Grid item md={6} container direction="column" className="roomp1">
+                    <Grid item xs={9} md={8} lg={6} container direction="column" className="roomp1">
                         <Box className="chapterTitle1 p1roomTitle">{p1Title}</Box>
                         <Box className="chapterText1 p1roomText" py={2} pr={3}>{p1Text}</Box>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="roompanel p2disp" justify="center" id={`${anchor2}`}>
-                    <Grid item md={7}></Grid>
-                    <Grid item md={5} container direction="column" className="p2roomtext" justify="center">
+                    <Grid item lg={7}></Grid>
+                    <Grid item xs={12} lg={5} container direction="column" className="p2roomtext" justify="center">
                         <Box className="chapterTitle p2roomTitle">{p2Title}</Box>
                         <Box className="chapterText p2roomText " py={1} pr={3}>{p2Text}</Box>
                         <Grid container direction="row">
-                            <ArrowBackRoundedIcon className="arrow" />
+                            <ArrowBackRoundedIcon className="arrow" id="arrowsmall"/>
                             <Box id="hover360"> Hover over the text to discover the different ways assist in 360 Communication</Box>
                         </Grid>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="roompanel roomp3Box p3disp" justify="center" id={`${anchor3}`}>
-                    <Grid item md={6} container direction="column" className="p3roomtext">
+                    <Grid item xs={12} lg={6} container direction="column" className="p3roomtext">
                         <Grid item className="chapterTitle p3roomTitle roomp3">{p3Title}</Grid>
                         <Grid item className="chapterText p3roomText roomp3" py={1} pr={3}>{p3Text}</Grid>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="roompanel p4disp" id={`${anchor4}`}>
-                    <Grid item md={3}></Grid>
-                    <Grid item md={6} container direction="column" className="p4roomtext" justify="center">
+                    <Grid item lg={3}></Grid>
+                    <Grid item xs={12} lg={6} container direction="column" className="p4roomtext" justify="center">
                         <Box className="chapterTitle p4roomTitle">{p4Title}</Box>
                         <Box className="chapterText p4roomText1" py={1} pr={3}>{p4Text1}</Box>
                         <Box className="chapterText p4roomText2" py={1} pr={3}>{p4Text2}</Box>
                     </Grid>
-                    <Grid item md={3}></Grid>
+                    <Grid item lg={3}></Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="roompanel p5disp" justify="center" id={`${anchor5}`}>
-                    <Grid item md={6} container direction="column" className="p5roomtext">
+                    <Grid item xs={12} lg={6} container direction="column" className="p5roomtext">
                         <Box className="chapterTitle p5roomTitle">{p5Title}</Box>
                         <Box className="chapterText p5roomText" py={1}>{p5Text}</Box>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="roompanel p6disp" justify="center" id={`${anchor6}`}>
-                    <Grid item md={7} container direction="column" className="p6roomtext">
+                    <Grid item xs={12} lg={7} container direction="column" className="p6roomtext">
                         <Box className="chapterTitle p6roomTitle">{p6Title}</Box>
                         <Box className="chapterText p6roomText" py={1} pr={3}>{p6Text}</Box>
                     </Grid>

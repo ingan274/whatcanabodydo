@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-// import "./style_1025-1622.css";
-// import "./style_812-1024.css";
-// import "./style_668-811.css";
-// import "./style_375-667.css";
+import "./style_1025-1622.css";
+import "./style_812-1024.css";
+import "./style_668-811.css";
+import "./style_375-667.css";
 import { Grid, Box } from '@material-ui/core';
 import { gsap } from "gsap";
 import Background from "../../Component/Clock";
@@ -98,56 +98,56 @@ const Clock = (props) => {
             {/* Text */}
             <Grid item containerdirection="column" className="clockText">
                 <Grid item container direction="row" className="clockpanel p1disp" id={`${anchor1}`} >
-                    <Grid item md={6}></Grid>
-                    <Grid item md={5} container direction="column" className="clockp1" justify="center">
+                    <Grid item xs={1} sm={5} md={7} lg={6}></Grid>
+                    <Grid item xs={6} sm={7} md={5} lg={5} container direction="column" className="clockp1" justify="center">
                         <Box className="chapterTitle1 p1clockTitle">{p1Title}</Box>
                         <Box className="chapterText1 p1clockText" py={2} pr={3}>{p1Text}</Box>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="clockpanel p2disp" justify="center" id={`${anchor2}`}>
-                    <Grid md={1}></Grid>
-                    <Grid item md={6} container direction="column" className="p2clocktext" justify="center">
+                    <Grid sm={1} md={1} lg={1}></Grid>
+                    <Grid item xs={11} sm={5} md={6} lg={6} container direction="column" className="p2clocktext" justify="center">
                         <Box className="chapterTitle p2clockTitle">{p2Title}</Box>
                         <Box className="chapterText p2clockText " py={1} pr={3}>{p2Text}</Box>
                     </Grid>
-                    <Grid item md={5}></Grid>
+                    <Grid item xs={1} sm={6} md={5} lg={5}></Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="clockpanel clockp3Box p3disp" justify="center" id={`${anchor3}`}>
-                <Grid md={2}></Grid>
-                    <Grid item md={4} container direction="column" className="p3clocktext" justify="center">
+                <Grid sm={1} md={1} lg={2}></Grid>
+                    <Grid item xs={11} sm={5} md={6} lg={4} container direction="column" className="p3clocktext" justify="center">
                         <Grid item className="chapterTitle p3clockTitle clockp3">{p3Title}</Grid>
                         <Grid item className="chapterText p3clockText clockp3" py={1} pr={3}>{p3Text}</Grid>
                     </Grid>
-                    <Grid item md={6}></Grid>
+                    <Grid item xs={1} sm={6} md={5}lg={6}></Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="clockpanel p4disp" id={`${anchor4}`}>
-                    <Grid item md={2}></Grid>
-                    <Grid item md={8} container direction="column" className="p4clock">
+                    <Grid item sm={1} md={1} lg={2}></Grid>
+                    <Grid item xs={12} sm={10} md={10} lg={8} container direction="column" className="p4clock">
                         <Box className="chapterTitle p4clockTitle">{p4Title}</Box>
                         <Box className="chapterText p4clockText" >{p4Text}</Box>
                     </Grid>
-                    <Grid item md={2}></Grid>
+                    <Grid item sm={1} md={1} lg={2}></Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="clockpanel p5disp" justify="center" id={`${anchor5}`}>
-                    <Grid item md={5}></Grid>
-                    <Grid item md={6} container direction="column" className="p5clocktext" justify="center">
+                    <Grid item lg={5}></Grid>
+                    <Grid item xs={12} sm={12} md ={12} lg={6} container direction="column" className="p5clocktext" justify="center">
                         <Box className="chapterTitle p5clockTitle">{p5Title}</Box>
                         <Box className="chapterText p5clockText" py={1}>{p5Text}</Box>
                     </Grid>
-                    <Grid item md={1}></Grid>
+                    <Grid item lg={1}></Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="clockpanel p6disp" justify="center" id={`${anchor6}`}>
-                    <Grid item md={3}></Grid>
-                    <Grid item md={6} container direction="column" className="p6clock">
+                    <Grid item sm={1} md ={1} lg={3}></Grid>
+                    <Grid item xs={12} sm={10} md ={10} lg={6} container direction="column" className="p6clock">
                         <Box className="chapterTitle p6clockTitle">{p6Title}</Box>
                         <Box className="chapterText p6clockText" py={1} pr={3}>{p6Text}</Box>
                     </Grid>
-                    <Grid item md={3}></Grid>
+                    <Grid item sm={1} md ={1} lg={3}></Grid>
                 </Grid>
             </Grid>
 

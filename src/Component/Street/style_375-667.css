@@ -1,0 +1,12 @@
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) {
+
+    #caliview {
+        transform: scale(1.1) translateY(0em) translateX(-38em);
+    }
+    
+    #city-layered, #northwestern, #desire_lines {
+        transform: scale(1.1) translateY(-6em) translateX(-52em);
+    }
+}

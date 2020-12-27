@@ -1,0 +1,30 @@
+@media only screen 
+and (min-width: 812px) 
+and (max-width: 1024px) {
+
+    #walking {
+        transform: translateY(146em) translateX(-24em) scale(1.1);
+    }
+    
+    #subway {
+        transform: translateY(-80em) translateX(-50em) scale(2.3);
+    }
+    
+    #bionic {
+        transform: translateY(133em) translateX(6em) scale(0.7);
+    }
+    
+    #war2 {
+        transform: translateY(50em) translateX(-3em) scale(0.9) ;
+    }
+
+    #war1 {
+        transform: translateY(30em) translateX(-20em) ;
+    }
+
+
+    #arm1 {
+        transform: translateY(5em) translateX(-13em);
+    }
+
+}

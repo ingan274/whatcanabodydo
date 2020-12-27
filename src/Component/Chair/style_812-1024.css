@@ -1,0 +1,61 @@
+@media only screen 
+and (min-width: 812px) 
+and (max-width: 1024px) {
+
+    #p1chair1 {
+        transform: scale(1) translateY(26em) translateX(-3em);
+    }
+
+    #p1chair2 {
+        transform: scale(1) translateY(20em) translateX(-10em);
+    }
+
+    #p1chair3 {
+        transform: scale(1) translateY(18em) translateX(-12em);
+    }
+
+    #thrones {
+        transform: scale(1.1);
+    }
+
+    #throne {
+        transform: translateY(24em) translateX(-8em)
+    }
+
+    #throne-2, #throne-3 {
+        transform: translateY(30em) translateX(-10em)
+    }
+
+    #face {
+        transform: scale(1.2) translateY(50em) translateX(-10em);
+    }
+    
+    #cardboard {
+        transform: scale(1) translateY(95em) translateX(-8em);
+    }
+    
+    #ada3-rocking {
+        transform: scale(.9) translateY(130em) translateX(22em);
+    }
+    
+    #ada1 {
+        transform: scale(.9) translateY(120em) translateX(15em);
+    }
+    
+    #tall-chair {
+        transform: scale(1) translateY(130em) translateX(-10em);
+    }
+
+    #chair6 {
+        transform: scale(1.2);
+    }
+
+    #R {
+        transform: translateY(90em) translateX(-20em);
+    }
+
+    #L {
+        transform: translateY(90em) translateX(-3em);
+    }
+
+}

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-// import "./style_1025-1622.css";
-// import "./style_812-1024.css";
-// import "./style_668-811.css";
-// import "./style_375-667.css";
+import "./style_1025-1622.css";
+import "./style_812-1024.css";
+import "./style_668-811.css";
+import "./style_375-667.css";
 import { Grid, Box } from '@material-ui/core';
 import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -76,36 +76,36 @@ const Chair = (props) => {
             {/* Text */}
             <Grid item containerdirection="column" className="chairText">
                 <Grid item container direction="row" className="chairpanel p1disp" id={`${anchor1}`}>
-                    <Grid md={3}></Grid>
-                    <Grid item md={5} container direction="column">
+                    <Grid lg={3}></Grid>
+                    <Grid item md={12} lg={5} container direction="column">
                         <Box className="chapterTitle1 p1ChairTitle">{p1Title}</Box>
                         <Box className="chapterText1 p1ChairText" py={2} pr={3}>{p1Text}</Box>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="chairpanel p2disp" justify="center" id={`${anchor2}`}>
-                    <Grid item md={5} container direction="column" className="p2Chairtext" justify="center">
+                    <Grid item xs={10} sm={6} md={6} lg={5} container direction="column" className="p2Chairtext" justify="center">
                         <Box className="chapterTitle p2ChairTitle">{p2Title}</Box>
                         <Box className="chapterText p2ChairText " py={1} pr={3}>{p2Text}</Box>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="chairpanel chairp3Box p3disp" id={`${anchor3}`}>
-                    <Grid item md={3} container direction="column" justify="center" className="chapterTitle p3ChairTitle chairp3">{p3Title}</Grid>
-                    <Grid item md={6}></Grid>
-                    <Grid item md={3} container direction="column" justify="center" className="chapterText p3ChairText chairp3" py={1} pr={3}>{p3Text}</Grid>
+                    <Grid item sm={12} md={3} lg={3} container direction="column" justify="center" className="chapterTitle p3ChairTitle chairp3">{p3Title}</Grid>
+                    <Grid item lg={6}></Grid>
+                    <Grid item sm={12} md={9} lg={3} container direction="column" justify="center" className="chapterText p3ChairText chairp3" py={1} pr={3}>{p3Text}</Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="chairpanel p4disp" id={`${anchor4}`}>
-                    <Grid item md={6}></Grid>
-                    <Grid item xs={6} container direction="column" className="p4text" justify="center">
+                    <Grid item sm={6} md={6}></Grid>
+                    <Grid item xs={12} sm={6} container direction="column" className="p4text" justify="center">
                         <Box className="chapterTitle p4ChairTitle">{p4Title}</Box>
                         <Box className="chapterText p4ChairText" py={1} pr={3}>{p4Text}</Box>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="chairpanel p5disp" id={`${anchor5}`}>
-                    <Grid item xs={7} container direction="column" className="p5text">
+                    <Grid item xs={12} sm={10} md={7} container direction="column" className="p5text">
                         <Box className="chapterTitle p5ChairTitle">{p5Title}</Box>
                         <Box className="chapterText p5ChairText" py={1}>{p5Text}</Box>
                         <Box id="adalink" pt={3} ><a href="https://www.adaptivedesign.org/">Check out More of Adaptive Design Asssociation</a></Box>
@@ -113,7 +113,7 @@ const Chair = (props) => {
                 </Grid>
 
                 <Grid item container direction="row" className="chairpanel p6disp" justify="center" id={`${anchor6}`}>
-                    <Grid item xs={5} container direction="column" className="p6text" justify="center">
+                    <Grid item sm={10} md={5} container direction="column" className="p6text" justify="center">
                         <Box className="chapterTitle p6ChairTitle">{p6Title}</Box>
                         <Box className="chapterText p6ChairText" py={1} pr={3}>{p6Text}</Box>
                     </Grid>

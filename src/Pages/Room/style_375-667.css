@@ -1,0 +1,41 @@
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) {
+
+    .roomp1 {
+        padding-bottom: 20em;
+    }
+
+    .p2roomtext {
+        padding-bottom:15em;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    #arrowsmall {
+        display: none;
+    }
+
+    .p3roomtext {
+        padding-top: 6em;
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+  
+    .p4roomtext {
+        padding-bottom: 18em;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .p5roomtext {
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+    .p6roomtext {
+        padding-right: 1em;
+        padding-left: 2em;
+    }
+
+}

@@ -1,0 +1,50 @@
+@media only screen 
+and (min-width: 1025px) 
+and (max-width: 1280px) {
+
+    #walking {
+        transform: translateY(10em) translateX(-2em);
+    }
+    
+    #subway {
+        transform: translateY(10em) translateX(-2em);
+    }
+    
+    #bionic {
+        transform: translateY(7em) translateX(-3em);
+    }
+    
+    #war2, #war1 {
+        transform: translateY(5em) translateX(-3em) ;
+    }
+
+  
+}
+
+@media only screen 
+and (min-width: 1281px) 
+and (max-width: 1622px) {
+
+#walking {
+    transform: translateY(45em) translateX(3em);
+}
+
+#subway {
+    transform: translateY(15em) translateX(-3em) scale(1.1);
+}
+
+#bionic {
+    transform: translateY(32em) translateX(3em);
+}
+
+#war2, #war1 {
+    transform: translateY(13em) translateX(3em);
+}
+
+#arm1 {
+    transform: translateX(-2em) scale(1.1);
+}
+
+
+}
+

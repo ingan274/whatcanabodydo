@@ -38,4 +38,8 @@ and (max-width: 811px) {
         font-weight: var(--demi);
     }
 
+    #home{
+        transform: translateY(15em);
+    }
+
 }

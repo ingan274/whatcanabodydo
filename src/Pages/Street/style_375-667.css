@@ -1,0 +1,31 @@
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) {
+
+    .chapterTitle, .chapterText {
+        background-color: rgba(255, 255, 255, .8);
+    }
+
+    .chapterTitle1, .chapterText1 {
+        background-color: rgba(235, 180, 1, .6)
+    }
+
+    .chapterTitle1 {
+        padding-left: 1em;
+    }
+
+    .chapterText1 {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .p6streetTitle {
+        padding-left: 1em;
+    }
+
+    .p6streetText {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+}

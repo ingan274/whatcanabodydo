@@ -1,11 +1,15 @@
 import React from "react";
 import "./style.css"
+import "./style_1025-1622.css"
+import "./style_812-1024.css";
+import "./style_668-811.css";
+import "./style_375-667.css";
 
 const Room = () => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 4608">
+        <svg xmlns="http://www.w3.org/2000/svg" >
             <g id="room">
-                <g id="room1">
+                <g id="roomp1">
                     <path className="room-1" d="M740.539,211.859l281.2-2.691,22.52,169.02,84.98-.159L1228.447,5.3" />
                     <path className="room-1" d="M1129.286,377.919,1129,476.181l62.41-135.564-.91-191.21" />
                     <path className="room-1" d="M1129.107,476.29,1248,474.639" />

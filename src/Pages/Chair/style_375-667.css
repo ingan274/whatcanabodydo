@@ -1,0 +1,47 @@
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) {
+
+
+    .p1ChairText {
+        padding: 1em 1.2em;
+    }
+    
+    .p1ChairTitle {
+        padding: 0em 1em;
+    }
+
+    .p2Chairtext {
+        padding-bottom: 15em;
+    }
+
+    .p3ChairTitle {
+        padding-bottom: 10em;
+    }
+    .p3ChairText {
+        padding-bottom: 0em;
+        padding-left: 2.5em;
+        padding-right: 2em;
+    }
+
+    .p4text {
+        padding-left: 2.5em;
+        padding-right: 2em;
+        padding-bottom: 11em;
+    }
+
+    .p5ChairTitle {
+        font-size: var(--body-size);
+    }
+
+    .p5ChairText {
+        font-size: .9em;
+    }
+
+    .p6text {
+        padding-bottom:20em;
+        padding-left: 2.5em;
+        padding-right: 2em;
+    }
+
+}

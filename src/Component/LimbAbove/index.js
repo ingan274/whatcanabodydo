@@ -1,5 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./style.css"
+import "./style_1025-1622.css"
+import "./style_812-1024.css";
+import "./style_668-811.css";
+import "./style_375-667.css";
 
 const Limb = (props) => {
     const hoverEvent = (id, element) => {
@@ -25,7 +29,7 @@ const Limb = (props) => {
     })
 
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 4608">
+        <svg xmlns="http://www.w3.org/2000/svg">
             <g id="limb">
                 <g id="evolution1">
                     <g id="evo1">

@@ -1,10 +1,14 @@
 import React from "react";
 import "./style.css"
+import "./style_1025-1622.css"
+import "./style_812-1024.css";
+import "./style_668-811.css";
+import "./style_375-667.css";
 
 const Limb = (props) => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 4608">
-            <g id="limb">
+        <svg xmlns="http://www.w3.org/2000/svg">
+            <g id="limbBackPart">
                 <g id="limb-background" className="limb-1">
                     <polygon className="limb-2" points="250.507 857.112 0.528 830.282 0.528 251.052 282.852 315.396 250.507 857.112" />
                     <polygon className="limb-2" points="289.573 383.42 261.528 590.363 0.528 578.338 0.528 136.969 289.573 383.42" />
@@ -1492,7 +1496,7 @@ const Limb = (props) => {
                         <path className="limb-68" d="M1363.405,3437.561l-45.683-13.575,45.816-40.68" />
                     </g>
                 </g>
-                <g id="Walking">
+                <g id="walking">
                     <path className="limb-7" d="M753.191,4066.894c0-32.529,24.023-58.9,53.657-58.9s53.655,26.369,53.655,58.9-24.021,58.9-53.655,58.9S753.191,4099.421,753.191,4066.894Z" />
                     <path className="limb-28" d="M786.192,4066.818c0-4.517,1.55-8.18,3.461-8.18s3.461,3.663,3.461,8.18-1.55,8.182-3.461,8.182S786.192,4071.337,786.192,4066.818Z" />
                     <path className="limb-28" d="M818.248,4066.72c0-4.519,1.55-8.181,3.461-8.181s3.461,3.662,3.461,8.181-1.55,8.18-3.461,8.18S818.248,4071.238,818.248,4066.72Z" />

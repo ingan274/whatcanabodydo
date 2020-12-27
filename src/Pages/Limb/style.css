@@ -12,7 +12,7 @@
     position: absolute;
     z-index: 1;
     left: 0;
-    top: 0;
+    bottom: 0;
 }
 
 .limbFront {
@@ -21,7 +21,7 @@
     position: absolute;
     z-index: 4;
     left: 0;
-    top: 0;
+    bottom: 0;
 }
 
 #evo1, #evo2, #evo3, #evo4, #evo5, #evo6, #evo7 {
@@ -78,4 +78,8 @@
 .dateHover {
     font-weight: var(--semi);
     font-size: var(--demisub-size);
+}
+
+.p3hoversmall {
+    display: none;
 }

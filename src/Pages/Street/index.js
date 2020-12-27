@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-// import "./style_1025-1622.css";
-// import "./style_812-1024.css";
-// import "./style_668-811.css";
-// import "./style_375-667.css";
+import "./style_1025-1622.css";
+import "./style_812-1024.css";
+import "./style_668-811.css";
+import "./style_375-667.css";
 import { Grid, Box } from '@material-ui/core';
 // import { gsap } from "gsap";
 import Background from "../../Component/Street";
@@ -73,51 +73,51 @@ const Street = (props) => {
             {/* Text */}
             <Grid item containerdirection="column" className="streetText">
                 <Grid item container direction="row" className="streetpanel p1disp" id={`${anchor1}`} >
-                    <Grid item md={6} container direction="column" className="streetp1" justify="center">
+                    <Grid item xs={10} sm={8} md={6} container direction="column" className="streetp1" justify="center">
                         <Box className="chapterTitle1 p1streetTitle">{p1Title}</Box>
                         <Box className="chapterText1 p1streetText" py={2} pr={3}>{p1Text}</Box>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="streetpanel p2disp" justify="center" id={`${anchor2}`}>
-                    <Grid item md={7} container direction="column" className="p2streettext" justify="center">
+                    <Grid item xs={9} sm={8} md={10} lg={7} container direction="column" className="p2streettext" justify="center">
                         <Box className="chapterTitle p2streetTitle">{p2Title}</Box>
                         <Box className="chapterText p2streetText " py={1} pr={3}>{p2Text}</Box>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="streetpanel streetp3Box p3disp" justify="center" id={`${anchor3}`}>
-                    <Grid item md={6} container direction="column" className="p3streettext" justify="center">
+                    <Grid item  xs={11} sm={10} md={8} lg={6} container direction="column" className="p3streettext" justify="center">
                         <Grid item className="chapterTitle p3streetTitle streetp3">{p3Title}</Grid>
                         <Grid item className="chapterText p3streetText streetp3" py={1} pr={3}>{p3Text}</Grid>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="streetpanel p4disp" id={`${anchor4}`}>
-                    <Grid item md={3}></Grid>
-                    <Grid item md={6} container direction="column" className="p4street" justify="center">
+                    <Grid item xs={1} sm={1} md={1} g={3}></Grid>
+                    <Grid item xs={10} sm={10} md={10} lg={6} container direction="column" className="p4street" justify="center">
                         <Box className="chapterTitle p4streetTitle">{p4Title}</Box>
                         <Box className="chapterText p4streetText" py={1} pr={3}>{p4Text}</Box>
                     </Grid>
-                    <Grid item md={3}></Grid>
+                    <Grid item xs={1}sm={1} md={1} lg={3}></Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="streetpanel p5disp" justify="center" id={`${anchor5}`}>
-                    <Grid item md={1}></Grid>
-                    <Grid item md={6} container direction="column" className="p5streettext" justify="center">
+                    <Grid item xs={1}sm={1} md={1} lg={1}></Grid>
+                    <Grid item xs={10}sm={6} md={5} lg={6} container direction="column" className="p5streettext" justify="center">
                         <Box className="chapterTitle p5streetTitle">{p5Title}</Box>
                         <Box className="chapterText p5streetText" py={1}>{p5Text}</Box>
                     </Grid>
-                    <Grid item md={5}></Grid>
+                    <Grid item xs={1} sm={5} md={6} lg={5}></Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="streetpanel p6disp" justify="center" id={`${anchor6}`}>
-                    <Grid item md={1}></Grid>
-                    <Grid item md={6} container direction="column" className="p6street">
+                    <Grid item xs={2} sm={1} md={1} lg={1}></Grid>
+                    <Grid item xs={9}sm={6} md={5} lg={6} container direction="column" className="p6street">
                         <Box className="chapterTitle p6streetTitle">{p6Title}</Box>
                         <Box className="chapterText p6streetText" py={1} pr={3}>{p6Text}</Box>
                     </Grid>
-                    <Grid item md={5}></Grid>
+                    <Grid item xs={1}sm={5} md={6} lg={5}></Grid>
                 </Grid>
             </Grid>
 

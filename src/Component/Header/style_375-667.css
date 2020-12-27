@@ -1,0 +1,10 @@
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) {
+
+    .chapterNav {
+        padding: 0px 0.3em;
+        font-size: var(--link-size);
+    }
+
+}

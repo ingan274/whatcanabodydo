@@ -1,9 +1,14 @@
 import React from "react";
 import "./style.css"
 
+import "./style_1025-1622.css";
+import "./style_812-1024.css";
+import "./style_668-811.css";
+import "./style_375-667.css";
+
 const Clock = () => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 4608">
+        <svg xmlns="http://www.w3.org/2000/svg" >
             <defs>
                 <linearGradient id="linear-gradient" x1="1090.237" y1="2282.607" x2="1090.237" y2="784.992" gradientUnits="userSpaceOnUse">
                     <stop offset="0.266" stop-color="#ebb401" />

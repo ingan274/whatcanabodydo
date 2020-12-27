@@ -1,0 +1,9 @@
+@media only screen 
+and (min-width: 812px) 
+and (max-width: 1024px) {
+
+#evolution1 {
+    transform: translateY(80em) translateX(-5em) scale(0.85) 
+}
+
+}

@@ -1,0 +1,23 @@
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) {
+
+
+.p3hover, .hoverProsth {
+    display: none;
+}
+
+.p3Text {
+    margin-bottom: 13em;
+}
+
+.p4Text {
+    margin-bottom: 10em;
+}
+
+.p5Text {
+    margin-bottom: 10em;
+}
+
+
+}

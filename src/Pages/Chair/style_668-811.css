@@ -1,0 +1,27 @@
+@media only screen 
+and (min-width: 668px) 
+and (max-width: 811px) {
+
+  
+    .p1ChairText {
+        padding: 1em 3em;
+    }
+    
+    .p1ChairTitle {
+        padding: 0em 2em;
+    }
+
+    .p3ChairTitle {
+        padding-bottom: 15em;
+    }
+    .p3ChairText {
+        padding-bottom: 0em;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    .p6text {
+        padding-bottom:20em;
+    }
+
+}

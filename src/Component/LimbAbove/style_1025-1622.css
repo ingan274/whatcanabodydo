@@ -1,0 +1,18 @@
+@media only screen 
+and (min-width: 1025px) 
+and (max-width: 1280px) {
+    #evolution1 {
+        transform: translateY(2em) translateX(-3em);
+    }
+  
+}
+
+@media only screen 
+and (min-width: 1281px) 
+and (max-width: 1622px) {
+
+    #evolution1 {
+        transform: translateY(16em) translateX(5em);
+    }
+}
+

@@ -1,0 +1,33 @@
+@media only screen 
+and (min-width: 668px) 
+and (max-width: 811px) {
+
+    #roomp1 {
+        transform: scale(1.1) translateY(10em) translateX(-30em) ;
+    }
+
+    #spiral, #comm360, #roomAbove {
+        transform: scale(0.7) translateY(38em) translateX(8em) ;
+    }
+
+    #woodsound {
+        transform: scale(0.8) translateY(76em) translateX(-10em) ;
+    }
+
+    #classNameroom_circle{
+        transform: scale(1) translateY(60em) translateX(-2em) ;
+    }
+
+    #classNameroom_line {
+        transform: scale(1.1) translateY(41em) translateX(-33em) ;
+    }
+
+    #interdepedence {
+        transform: scale(.8) translateY(130em) translateX(-8em) ;
+    }
+
+    #lego {
+        transform: scale(0.7) translateY(210em) translateX(1em) ;
+    }
+
+}

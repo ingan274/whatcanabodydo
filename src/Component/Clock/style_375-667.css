@@ -1,0 +1,24 @@
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) {
+
+    #watch {
+        transform: scale(1) translateY(5em) translateX(-2em);
+    }
+
+    #street2time {
+        transform: scale(.9) translateY(30em) translateX(-43em);
+    }
+
+    #timeevolve {
+        transform: scale(.6) translateY(146em) translateX(-23em);
+    }
+
+    #text {
+        transform: scale(.9) translateY(40em) translateX(-10em);
+    }
+
+    #doubledaimond {
+        transform: scale(.6) translateY(224em) translateX(2em);
+    }
+}

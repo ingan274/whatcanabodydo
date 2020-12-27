@@ -1,0 +1,52 @@
+@media only screen 
+and (min-width: 668px) 
+and (max-width: 811px) {
+
+  
+.p3hoversmall {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+}
+
+.p3hover, .hoverProsth {
+    display: none;
+}
+
+.p3Text {
+    margin-bottom: 20em;
+}
+
+.p3disp {
+    position: relative;
+}
+
+.hoverProsthsmall {
+    font-weight: var(--med);
+    position: absolute;
+    bottom: 15em;
+    width: 100vw;
+    left: 12em;
+}
+
+.textHover {
+    position: absolute;
+    bottom: 0;
+    left: 5em;
+    padding: 0 2em 2em 0;
+}
+
+.p4Text {
+    margin-bottom: 30em;
+}
+
+.p5Text {
+    margin-bottom: 30em;
+}
+
+.p6Text {
+    margin-bottom: 30em;
+}
+
+}
