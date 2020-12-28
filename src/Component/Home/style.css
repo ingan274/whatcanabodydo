@@ -1,10 +1,6 @@
 .home-1{fill:#ebb401;opacity:0.3;}.home-1,.home-2{stroke:#ebb401;stroke-miterlimit:10;}.home-2{fill:none;}
 
-#home {
-    transform: scale(1.6);
-}
-
-@media only screen 
+/* @media only screen 
 and (min-width: 1281px) 
 and (max-width: 1622px) {
 
@@ -58,4 +54,4 @@ and (max-width: 667px) {
         padding: 0em 2em;
     }
 
-}
+} */

@@ -3,10 +3,11 @@ and (min-width: 375px)
 and (max-width: 667px) {
 
     #caliview {
-        transform: scale(1.1) translateY(0em) translateX(-38em);
+        transform: scale(2.7) translateY(-144em) translateX(-35em);
     }
     
-    #city-layered, #northwestern, #desire_lines {
-        transform: scale(1.1) translateY(-6em) translateX(-52em);
+    #northwestern, #desire_lines,  #city-layered {
+        transform: scale(3) translateY(-86em) translateX(-50em);
     }
+
 }

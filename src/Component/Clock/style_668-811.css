@@ -2,25 +2,24 @@
 and (min-width: 668px) 
 and (max-width: 811px) {
 
-   
     #watch {
-        transform: scale(1) translateY(8em) translateX(-10em);
+        transform: scale(1.8) translateY(-88em) translateX(-15em);
     }
 
     #street2time {
-        transform: scale(1.2) translateY(-5em) translateX(-32em);
+        transform: scale(2) translateY(-67em) translateX(-25em);
     }
 
     #timeevolve {
-        transform: scale(1) translateY(13em) translateX(-19em);
+        transform: scale(2) translateY(-58em) translateX(-18em);
     }
 
     #text {
-        transform: scale(1) translateY(16em) translateX(-5em);
+        transform: scale(2) translateY(-48em) translateX(-3em);
     }
 
     #doubledaimond {
-        transform: scale(1) translateY(23em) translateX(0em);
+        transform: scale(2) translateY(-35em) translateX(0em);
     }
 
 }

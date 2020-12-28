@@ -74,30 +74,30 @@ const Street = (props) => {
             <Grid item containerdirection="column" className="streetText">
                 <Grid item container direction="row" className="streetpanel p1disp" id={`${anchor1}`} >
                     <Grid item xs={10} sm={8} md={6} container direction="column" className="streetp1" justify="center">
-                        <Box className="chapterTitle1 p1streetTitle">{p1Title}</Box>
-                        <Box className="chapterText1 p1streetText" py={2} pr={3}>{p1Text}</Box>
+                        <Box className="chapterTitle1 p1streetTitle streetMobile">{p1Title}</Box>
+                        <Box className="chapterText1 p1streetText streetMobile" py={2} pr={3}>{p1Text}</Box>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="streetpanel p2disp" justify="center" id={`${anchor2}`}>
                     <Grid item xs={9} sm={8} md={10} lg={7} container direction="column" className="p2streettext" justify="center">
-                        <Box className="chapterTitle p2streetTitle">{p2Title}</Box>
-                        <Box className="chapterText p2streetText " py={1} pr={3}>{p2Text}</Box>
+                        <Box className="chapterTitle p2streetTitle streetMobile">{p2Title}</Box>
+                        <Box className="chapterText p2streetText streetMobile" py={1} pr={3}>{p2Text}</Box>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="streetpanel streetp3Box p3disp" justify="center" id={`${anchor3}`}>
                     <Grid item  xs={11} sm={10} md={8} lg={6} container direction="column" className="p3streettext" justify="center">
-                        <Grid item className="chapterTitle p3streetTitle streetp3">{p3Title}</Grid>
-                        <Grid item className="chapterText p3streetText streetp3" py={1} pr={3}>{p3Text}</Grid>
+                        <Grid item className="chapterTitle p3streetTitle streetp3 streetMobile">{p3Title}</Grid>
+                        <Grid item className="chapterText p3streetText streetp3 streetMobile" py={1} pr={3}>{p3Text}</Grid>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="streetpanel p4disp" id={`${anchor4}`}>
                     <Grid item xs={1} sm={1} md={1} g={3}></Grid>
                     <Grid item xs={10} sm={10} md={10} lg={6} container direction="column" className="p4street" justify="center">
-                        <Box className="chapterTitle p4streetTitle">{p4Title}</Box>
-                        <Box className="chapterText p4streetText" py={1} pr={3}>{p4Text}</Box>
+                        <Box className="chapterTitle p4streetTitle streetMobile">{p4Title}</Box>
+                        <Box className="chapterText p4streetText streetMobile" py={1} pr={3}>{p4Text}</Box>
                     </Grid>
                     <Grid item xs={1}sm={1} md={1} lg={3}></Grid>
                 </Grid>
@@ -105,8 +105,8 @@ const Street = (props) => {
                 <Grid item container direction="row" className="streetpanel p5disp" justify="center" id={`${anchor5}`}>
                     <Grid item xs={1}sm={1} md={1} lg={1}></Grid>
                     <Grid item xs={10}sm={6} md={5} lg={6} container direction="column" className="p5streettext" justify="center">
-                        <Box className="chapterTitle p5streetTitle">{p5Title}</Box>
-                        <Box className="chapterText p5streetText" py={1}>{p5Text}</Box>
+                        <Box className="chapterTitle p5streetTitle streetMobile">{p5Title}</Box>
+                        <Box className="chapterText p5streetText streetMobile" py={1}>{p5Text}</Box>
                     </Grid>
                     <Grid item xs={1} sm={5} md={6} lg={5}></Grid>
                 </Grid>
@@ -114,8 +114,8 @@ const Street = (props) => {
                 <Grid item container direction="row" className="streetpanel p6disp" justify="center" id={`${anchor6}`}>
                     <Grid item xs={2} sm={1} md={1} lg={1}></Grid>
                     <Grid item xs={9}sm={6} md={5} lg={6} container direction="column" className="p6street">
-                        <Box className="chapterTitle p6streetTitle">{p6Title}</Box>
-                        <Box className="chapterText p6streetText" py={1} pr={3}>{p6Text}</Box>
+                        <Box className="chapterTitle p6streetTitle streetMobile">{p6Title}</Box>
+                        <Box className="chapterText p6streetText streetMobile" py={1} pr={3}>{p6Text}</Box>
                     </Grid>
                     <Grid item xs={1}sm={5} md={6} lg={5}></Grid>
                 </Grid>

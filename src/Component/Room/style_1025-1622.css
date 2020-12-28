@@ -3,29 +3,28 @@ and (min-width: 1025px)
 and (max-width: 1280px) {
 
     #roomp1 {
-        transform: scale(1) translateY(1em) translateX(-3em) ;
+        transform: scale(1.1) translateY(-14em) translateX(-3em) ;
     }
 
     #spiral, #comm360, #roomAbove {
-        transform: scale(1) translateY(3em) translateX(0em) ;
+        transform: scale(1) translateY(-10em) translateX(0em) ;
     }
 
     #woodsound {
-        transform: scale(1) translateY(8em) translateX(-1em) ;
+        transform: scale(1) translateY(0em) translateX(2em) ;
     }
 
     #classNameroom_circle, #classNameroom_line {
-        transform: scale(1) translateY(8em) translateX(-4em) ;
+        transform: scale(1) translateY(2em) translateX(-1em) ;
     }
 
     #interdepedence {
-        transform: scale(1) translateY(10em) translateX(0em) ;
+        transform: scale(1) translateY(5em) translateX(1em) ;
     }
 
     #lego {
-        transform: scale(1) translateY(12em) translateX(0em) ;
+        transform: scale(1) translateY(15em) translateX(2em) ;
     }
-  
 }
 
 @media only screen 
@@ -33,27 +32,27 @@ and (min-width: 1281px)
 and (max-width: 1622px) {
 
     #roomp1 {
-        transform: scale(1.1) translateY(2em) translateX(-3em) ;
+        transform: scale(1.1) translateY(-14em) translateX(-3em) ;
     }
 
     #spiral, #comm360, #roomAbove {
-        transform: scale(1) translateY(10em) translateX(0em) ;
+        transform: scale(1) translateY(-10em) translateX(0em) ;
     }
 
     #woodsound {
-        transform: scale(1) translateY(20em) translateX(2em) ;
+        transform: scale(1) translateY(0em) translateX(2em) ;
     }
 
     #classNameroom_circle, #classNameroom_line {
-        transform: scale(1) translateY(30em) translateX(1em) ;
+        transform: scale(1) translateY(2em) translateX(-1em) ;
     }
 
     #interdepedence {
-        transform: scale(1) translateY(36em) translateX(5em) ;
+        transform: scale(1) translateY(5em) translateX(1em) ;
     }
 
     #lego {
-        transform: scale(1) translateY(45em) translateX(2em) ;
+        transform: scale(1) translateY(15em) translateX(2em) ;
     }
 }
 

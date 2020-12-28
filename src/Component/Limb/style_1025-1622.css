@@ -3,19 +3,23 @@ and (min-width: 1025px)
 and (max-width: 1280px) {
 
     #walking {
-        transform: translateY(10em) translateX(-2em);
+        transform: translateY(11em) translateX(0em);
     }
     
     #subway {
-        transform: translateY(10em) translateX(-2em);
+        transform: translateY(8em) translateX(0em);
     }
     
     #bionic {
-        transform: translateY(7em) translateX(-3em);
+        transform: translateY(3em) translateX(0em);
     }
     
     #war2, #war1 {
-        transform: translateY(5em) translateX(-3em) ;
+        transform: translateY(-5em) translateX(0em);
+    }
+    
+    #arm1 {
+        transform: translateY(-12em) translateX(0em);
     }
 
   
@@ -26,23 +30,23 @@ and (min-width: 1281px)
 and (max-width: 1622px) {
 
 #walking {
-    transform: translateY(45em) translateX(3em);
+    transform: translateY(11em) translateX(0em);
 }
 
 #subway {
-    transform: translateY(15em) translateX(-3em) scale(1.1);
+    transform: translateY(8em) translateX(0em);
 }
 
 #bionic {
-    transform: translateY(32em) translateX(3em);
+    transform: translateY(3em) translateX(0em);
 }
 
 #war2, #war1 {
-    transform: translateY(13em) translateX(3em);
+    transform: translateY(-5em) translateX(0em);
 }
 
 #arm1 {
-    transform: translateX(-2em) scale(1.1);
+    transform: translateY(-12em) translateX(0em);
 }
 
 

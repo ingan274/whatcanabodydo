@@ -7,7 +7,7 @@ import "./style_375-667.css";
 
 const Room = () => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 4608">
             <g id="room">
                 <g id="roomp1">
                     <path className="room-1" d="M740.539,211.859l281.2-2.691,22.52,169.02,84.98-.159L1228.447,5.3" />

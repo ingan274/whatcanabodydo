@@ -7,7 +7,7 @@ import "./style_375-667.css";
 
 const Limb = (props) => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 4608">
             <g id="limbBackPart">
                 <g id="limb-background" className="limb-1">
                     <polygon className="limb-2" points="250.507 857.112 0.528 830.282 0.528 251.052 282.852 315.396 250.507 857.112" />

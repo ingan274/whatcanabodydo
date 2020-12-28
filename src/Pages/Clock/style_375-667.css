@@ -8,8 +8,12 @@ and (max-width: 667px) {
         background-color: rgba(255, 255, 255, 0.8);
     }
 
+    .p4clockTitle {
+        padding-top: 5em;
+    }
+
     .p4clockText {
-        padding: 1em;
+        padding: 2em;
     }
 
     .p6clock {

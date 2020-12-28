@@ -3,59 +3,55 @@ and (min-width: 375px)
 and (max-width: 667px) {
 
     #p1chair1 {
-        transform: scale(.5) translateY(38em) translateX(0em);
+        transform: scale(1.3) translateY(-250em) translateX(-2em);
     }
 
     #p1chair2 {
-        transform: scale(.5) translateY(28em) translateX(-20em);
+        transform: scale(1.3) translateY(-260em) translateX(-10em);
     }
 
     #p1chair3 {
-        transform: scale(.5) translateY(20em) translateX(-32em);
+        transform: scale(1.3) translateY(-275em) translateX(-20em);
     }
-
-    #thrones {
-        transform: scale(.4);
-    }
-
     #throne {
-        transform: translateY(110em) translateX(-10em)
+        transform: scale(1.3) translateY(-130em) translateX(-7em);
     }
 
-    #throne-2, #throne-3 {
-        transform: translateY(118em) translateX(-25em)
+    #throne-2 {
+        transform: scale(1.8) translateY(-203em) translateX(-35em);
     }
+
+    #throne-3 {
+        transform: scale(1.7) translateY(-133em) translateX(-35em);
+    }
+
 
     #face {
-        transform: scale(0.3) translateY(200em) translateX(-10em);
+        transform: scale(1.4) translateY(-108em) translateX(-9em);
     }
     
     #cardboard {
-        transform: scale(.3) translateY(356em) translateX(8em);
+        transform: scale(1.3) translateY(60em) translateX(20em);
     }
     
     #ada3-rocking {
-        transform: scale(.4) translateY(275em) translateX(3em);
+        transform: scale(1.1) translateY(222em) translateX(10em);
     }
     
     #ada1 {
-        transform: scale(.4) translateY(280em) translateX(2em);
+       display: none;
     }
     
     #tall-chair {
-        display: none;
-    }
-
-    #chair6 {
-        transform: scale(.6);
+        transform: scale(1.3) translateY(145em) translateX(-5em);
     }
 
     #R {
-        transform: translateY(130em) translateX(-50em);
+        transform: scale(2) translateY(60em) translateX(-43em);
     }
 
     #L {
-        transform: translateY(130em) translateX(0em);
+        transform: scale(2) translateY(60em) translateX(0em);
     }
 
 }

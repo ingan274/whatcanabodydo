@@ -3,40 +3,39 @@ and (min-width: 375px)
 and (max-width: 667px) {
 
     #walking {
-       display: none;
+        transform: translateY(335em) translateX(-30em) scale(1.3);
     }
     
     #subway {
-        transform: translateY(157em) translateX(-9em) scale(.4);
+        transform: translateY(120em) translateX(-30em) scale(1.6);
     }
     
     #bionic {
-        transform: translateY(147em) translateX(-5em) scale(0.3);
+        transform: scale(1.4) translateY(45em) translateX(-20em) ;
     }
     
     #war2 {
-        transform: scale(0.5) translateY(100em) translateX(-3em) ;
+        transform: scale(1.4) translateY(-137em) translateX(-3em) ;
     }
 
     #war1 {
-        transform: scale(0.5) translateY(50em) translateX(-35em) ;
-    }
-
-
-    #arm1 {
-        transform: translateY(5em) translateX(-28em) scale(0.9);
+        transform: scale(1.4) translateY(-208em) translateX(-23em) ;
     }
 
     #bionicarm {
-        transform: scale(1) translateX(-17em) translateY(-10em);
+        transform: scale(2.3) translateX(-40em) translateY(-170em);
     }
     
     #zip4, #zip3  {
-        transform: scale(1) translateX(-12em) translateY(-30em);
+        transform: scale(2.3) translateX(-35em) translateY(-145em);
     }
 
     #zip2, #zip1  {
-        transform: scale(1) translateX(3em) translateY(20em);
+        transform: scale(2) translateX(-24em) translateY(-200em);
+    }
+
+    #limb-background {
+        transform: scale(2) translateY(-50em);
     }
    
 

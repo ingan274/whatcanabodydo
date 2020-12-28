@@ -5,7 +5,7 @@ import "./style.css";
 
 const Home = () => {
     return (
-        <svg id="home" xmlns="http://www.w3.org/2000/svg" >
+        <svg id="home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768" >
             <g id="city-front">
                 <polygon className="home-1" points="195.507 452.547 195.507 768 94.869 768 94.869 441.097 124.761 441.097 124.761 434.283 156.216 434.283 169.281 440.316 169.281 451.53 190.713 451.53 195.507 452.547" />
                 <polygon className="home-1" points="440.188 611.874 440.188 768 368.114 768 368.114 609.745 419.978 609.745 419.978 611.874 440.188 611.874" />
