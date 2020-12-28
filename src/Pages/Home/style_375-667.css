@@ -12,18 +12,22 @@ and (max-width: 667px) {
     .introText, .chapterList {
         height: 100vh;
     }
+    
+    .introText {
+        padding: 0em 2em;
+    }
+
+    .hpage {
+        background-color: rgba(235, 180, 1, .8);
+    }
 
     .scroll {
         display: inline;
         font-weight: var(--semi);
     }
 
-    .introText {
-        padding-left: 0em;
-    }
-
     #selectChap {
-        color: var(--yellow);
+        color: black;
     }
 
     .homeChapterLinks {
@@ -36,6 +40,10 @@ and (max-width: 667px) {
 
     .homeChapterLinks:hover {
         font-weight: var(--demi);
+    }
+
+    #home {
+        display: none;
     }
 
 }
