@@ -8,19 +8,19 @@ and (max-width: 1024px) {
     }
 
     #street2time {
-        transform: scale(1.5) translateY(13em) translateX(-20em);
+        transform: scale(1.5) translateY(0em) translateX(-25em);
     }
 
     #timeevolve {
-        transform: scale(1.3) translateY(40em) translateX(-12em);
+        transform: scale(1.3) translateY(10em) translateX(-16em);
     }
 
     #text {
-        transform: scale(1.5) translateY(30em) translateX(-2em);
+        transform: scale(1.5) translateY(-5em) translateX(-5em);
     }
 
     #doubledaimond {
-        transform: scale(1.3) translateY(70em) translateX(2em);
+        transform: scale(1.3) translateY(22em) translateX(-1em);
     }
   
 }

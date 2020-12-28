@@ -1,1 +1,5 @@
 .room-1,.room-10,.room-13,.room-14,.room-15,.room-16,.room-2,.room-3,.room-4,.room-6,.room-8{fill:none;stroke-linecap:round;stroke-linejoin:round;}.room-1,.room-15{stroke:#000;}.room-10,.room-11,.room-16,.room-2,.room-8{stroke:#ebb401;}.room-2{stroke-width:13px;opacity:0.2;}.room-3,.room-6{stroke:#6e6da4;stroke-width:2.83px;}.room-3{stroke-dasharray:16 8;}.room-13,.room-14,.room-4{stroke:#2e2d6c;}.room-16,.room-4{stroke-width:3px;}.room-5{font-size:12px;}.room-17,.room-18,.room-5{font-family:Poppins-SemiBold, Poppins;font-weight:600;}.room-7{fill:#2e2d6c;}.room-11,.room-7,.room-9{fill-rule:evenodd;}.room-8{stroke-width:7px;}.room-9{fill-opacity:0.504;}.room-10,.room-13,.room-14,.room-15{stroke-width:1.5px;}.room-11{fill:#ebb401;stroke-miterlimit:10;}.room-12{opacity:0.561;}.room-13{stroke-dasharray:5 9;}.room-17{font-size:12.807px;}.room-18{font-size:14.646px;}
+
+#room, #roomAbove{
+    transform: scale(1.23);
+}

@@ -12,12 +12,25 @@ and (max-width: 667px) {
 }
 
 .p4Text {
-    margin-bottom: 10em;
+    margin-bottom: 3em;
+}
+
+.p4limbtext {
+    font-size: 0.83em;
+    margin-left: -1em;
 }
 
 .p5Text {
     margin-bottom: 10em;
 }
 
+.p6limbtitle {
+    margin-top: 6em;
+}
+
+.p6limbtext {
+    font-size: 0.83em;
+  
+}
 
 }

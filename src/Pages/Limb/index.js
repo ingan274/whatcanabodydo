@@ -100,7 +100,7 @@ const Limb = (props) => {
             {/* Text */}
             <Grid item container direction="column" className="limbText">
                 <Grid item container direction="row" className="panel p1disp" id={`${anchor1}`}>
-                    <Box item="true" xs={1} sm={2} mx={5} className="line line-1"></Box>
+                    <Box item="true" xs={1} sm={2} mx={3} className="line line-1"></Box>
                     <Grid item xs={8} sm={5} container direction="column" className="p1text" justify="center">
                         <Box className="chapterTitle1 p1Title">{p1Title}</Box>
                         <Box className="chapterText1 p1Text" py={2} pr={3}>{p1Text}</Box>
@@ -108,7 +108,7 @@ const Limb = (props) => {
                 </Grid>
 
                 <Grid item container direction="row" className="panel p2disp" id={`${anchor2}`}>
-                    <Box item="true" xs={1} sm={2} mx={5} className="line line-2"></Box>
+                    <Box item="true" xs={1} sm={2} mx={3} className="line line-2"></Box>
                     <Grid item xs={8} sm={10} md={10} lg={5} container direction="column" className="p2text" justify="center">
                         <Box className="chapterTitle p2Title">{p2Title}</Box>
                         <Box className="chapterText p2Text" py={1} pr={3}>{p2Text}</Box>
@@ -116,7 +116,7 @@ const Limb = (props) => {
                 </Grid>
 
                 <Grid item container direction="row" className="panel p3disp" id={`${anchor3}`}>
-                    <Box item="true" xs={1} sm={2} mx={5} className="line line-3"></Box>
+                    <Box item="true" xs={1} sm={2} mx={3} className="line line-3"></Box>
                     <Grid item xs={8} sm={10} md={5} lg={5} container direction="column" className="p3text" justify="center">
                         <Box className="chapterTitle p3Title">{p3Title}</Box>
                         <Box className="chapterText p3Text" py={1} pr={3}>{p3Text}</Box>
@@ -146,15 +146,15 @@ const Limb = (props) => {
                 </Grid>
 
                 <Grid item container direction="row" className="panel p4disp" id={`${anchor4}`}>
-                    <Box item="true" xs={1} sm={2} mx={5} className="line line-4"></Box>
-                    <Grid item xs={8} sm={10} md={4} lg={5} container direction="column" className="p4text" justify="center">
+                    <Box item="true" xs={1} sm={2} mx={3} className="line line-4"></Box>
+                    <Grid item xs={9} sm={10} md={4} lg={5} container direction="column" className="p4text" justify="center">
                         <Box className="chapterTitle p4Title">{p4Title}</Box>
-                        <Box className="chapterText p4Text" py={1} pr={3}>{p4Text}</Box>
+                        <Box className="chapterText p4Text p4limbtext" py={1} pr={3}>{p4Text}</Box>
                     </Grid>
                 </Grid>
 
                 <Grid item container direction="row" className="panel p5disp" id={`${anchor5}`}>
-                    <Box item="true" xs={1} sm={2}mx={5} className="line line-5"></Box>
+                    <Box item="true" xs={1} sm={2}mx={3} className="line line-5"></Box>
                     <Grid item xs={8} sm={10} md={7} lg={5} container direction="column" className="p5text" justify="center">
                         <Box className="chapterTitle p5Title">{p5Title}</Box>
                         <Box className="chapterText p5Text" py={1} pr={3}>{p5Text}</Box>
@@ -162,10 +162,10 @@ const Limb = (props) => {
                 </Grid>
 
                 <Grid item container direction="row" className="panel p6disp" id={`${anchor6}`}>
-                    <Box item="true" xs={1} sm={2} mx={5} className="line line-6"></Box>
-                    <Grid item xs={8} sm={10} md={10} lg={5} container direction="column" className="p6text" justify="center">
-                        <Box className="chapterTitle p6Title">{p6Title}</Box>
-                        <Box className="chapterText p6Text" py={1} pr={3}>{p6Text}</Box>
+                    <Box item="true" xs={1} sm={2} mx={3} className="line line-6"></Box>
+                    <Grid item xs={9} sm={10} md={10} lg={5} container direction="column" className="p6text" justify="center">
+                        <Box className="chapterTitle p6Title p6limbtitle">{p6Title}</Box>
+                        <Box className="chapterText p6Text p6limbtext" py={1} pr={3}>{p6Text}</Box>
                     </Grid>
                 </Grid>
             </Grid>

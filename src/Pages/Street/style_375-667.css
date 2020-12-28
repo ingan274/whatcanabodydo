@@ -2,11 +2,11 @@
 and (min-width: 375px) 
 and (max-width: 667px) {
 
-    .chapterTitle, .chapterText {
+    .p2streetTitle, .p2streetText {
         background-color: rgba(255, 255, 255, .8);
     }
 
-    .chapterTitle1, .chapterText1 {
+    .p1streetTitle, .p1streetText {
         background-color: rgba(235, 180, 1, .6)
     }
 

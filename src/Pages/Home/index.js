@@ -28,6 +28,10 @@ const Home = (props) => {
 
     return (
         <Box id="main" className="main-container">
+            {/* Images */}
+            <Box className="home-buildings">
+                <Buildings />
+            </Box>
             {/* Text */}
             <Grid item container direction="row" className="hpage">
                 <Grid item container direction="column" xs={12} s={12} md={12} lg={6} className="mainText">
@@ -53,11 +57,8 @@ const Home = (props) => {
                     </Grid>
                 </Grid>
             </Grid>
-            
-            {/* Images */}
-            <Box className="home-buildings">
-                <Buildings />
-            </Box>
+
+
         </Box>
 
     )

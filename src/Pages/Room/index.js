@@ -89,7 +89,7 @@ const Room = (props) => {
             {/* Text */}
             <Grid item containerdirection="column" className="roomText">
                 <Grid item container direction="row" className="roompanel p1disp" id={`${anchor1}`}>
-                    <Grid item xs={9} md={8} lg={6} container direction="column" className="roomp1">
+                    <Grid item xs={10} md={8} lg={6} container direction="column" className="roomp1">
                         <Box className="chapterTitle1 p1roomTitle">{p1Title}</Box>
                         <Box className="chapterText1 p1roomText" py={2} pr={3}>{p1Text}</Box>
                     </Grid>

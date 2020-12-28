@@ -3,15 +3,15 @@ and (min-width: 375px)
 and (max-width: 667px) {
 
     #p1chair1 {
-        transform: scale(.5) translateY(53em) translateX(0em);
+        transform: scale(.5) translateY(38em) translateX(0em);
     }
 
     #p1chair2 {
-        transform: scale(.5) translateY(38em) translateX(-18em);
+        transform: scale(.5) translateY(28em) translateX(-20em);
     }
 
     #p1chair3 {
-        transform: scale(.5) translateY(28em) translateX(-32em);
+        transform: scale(.5) translateY(20em) translateX(-32em);
     }
 
     #thrones {
@@ -19,27 +19,27 @@ and (max-width: 667px) {
     }
 
     #throne {
-        transform: translateY(150em) translateX(-10em)
+        transform: translateY(110em) translateX(-10em)
     }
 
     #throne-2, #throne-3 {
-        transform: translateY(158em) translateX(-25em)
+        transform: translateY(118em) translateX(-25em)
     }
 
     #face {
-        transform: scale(0.4) translateY(175em) translateX(-13em);
+        transform: scale(0.3) translateY(200em) translateX(-10em);
     }
     
     #cardboard {
-        transform: scale(.4) translateY(318em) translateX(2em);
+        transform: scale(.3) translateY(356em) translateX(8em);
     }
     
     #ada3-rocking {
-        transform: scale(.4) translateY(389em) translateX(3em);
+        transform: scale(.4) translateY(275em) translateX(3em);
     }
     
     #ada1 {
-        transform: scale(.4) translateY(390em) translateX(2em);
+        transform: scale(.4) translateY(280em) translateX(2em);
     }
     
     #tall-chair {
@@ -47,15 +47,15 @@ and (max-width: 667px) {
     }
 
     #chair6 {
-        transform: scale(.65);
+        transform: scale(.6);
     }
 
     #R {
-        transform: translateY(186em) translateX(-50em);
+        transform: translateY(130em) translateX(-50em);
     }
 
     #L {
-        transform: translateY(186em) translateX(0em);
+        transform: translateY(130em) translateX(0em);
     }
 
 }
